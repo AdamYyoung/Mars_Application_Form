@@ -25,5 +25,5 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/mars-visit-form.git
-   cd mars-visit-form
+   git clone https://github.com/AdamYyoung/Mars_Application_Form.git
+   cd Mars_Application_Form
