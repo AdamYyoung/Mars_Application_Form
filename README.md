@@ -124,7 +124,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ### **How to Use the Form**
 
 1. **Stage 1: Personal Information**
-   - Fill in your full name, date of birth, nationality, email, and phone number.
+   - Fill in your full name, date of birth(use **arrow keys** to move), nationality, email, and phone number. 
    - Click **Next** to proceed to the next stage.
 
 2. **Stage 2: Travel Preferences**
@@ -137,15 +137,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 4. **Success Page**
    - After successful submission, you will be redirected to a success page.
-
----
-
-### **Screenshots**
-
-![Stage 1: Personal Information](screenshots/stage1.png)
-![Stage 2: Travel Preferences](screenshots/stage2.png)
-![Stage 3: Health and Safety](screenshots/stage3.png)
-![Success Page](screenshots/success.png)
 
 ---
 
