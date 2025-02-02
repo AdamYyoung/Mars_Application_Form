@@ -25,8 +25,8 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/mars-visit-form.git
-   cd mars-visit-form
+   git clone https://github.com/AdamYyoung/Mars_Application_Form.git
+   cd Mars_Application_Form
    ```
 
 2. **Install dependencies**:
@@ -112,17 +112,8 @@ mars-visit-form/
 
 ## Live Link
 
-The project is deployed on Heroku: [Live Link](https://your-app-name.herokuapp.com)
+The project is deployed on Heroku: [Live Link](https://Mars_Application_Form.herokuapp.com)
 
-## Contributing
-
-If you would like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeatureName`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeatureName`).
-5. Open a pull request.
 
 ## License
 
@@ -162,5 +153,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions or need further assistance, feel free to contact me:
 
-- **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
+- **GitHub**: [AdamYyoung](https://github.com/AdamYyoung)
