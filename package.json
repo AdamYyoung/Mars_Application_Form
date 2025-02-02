@@ -13,6 +13,7 @@
     "testEnvironment": "jsdom"
   },
   "scripts": {
+    "start" : "node app.js" ,
     "test": "jest"
   }
 }
