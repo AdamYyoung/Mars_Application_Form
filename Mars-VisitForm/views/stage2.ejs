@@ -1,0 +1,26 @@
+<%- include('partials/header') %>
+<h1>Stage 2: Travel Preferences</h1>
+<form action="/stage3" method="POST">
+    <div class="mb-3">
+        <label for="departureDate" class="form-label">Departure Date</label>
+        <input type="date" class="form-control" id="departureDate" name="departureDate" value="<%= travelPreferences.departureDate || '' %>" required>
+    </div>
+    <div class="mb-3">
+        <label for="returnDate" class="form-label">Return Date</label>
+        <input type="date" class="form-control" id="returnDate" name="returnDate" value="<%= travelPreferences.returnDate || '' %>" required>
+    </div>
+    <div class="mb-3">
+        <label for="accommodation" class="form-label">Accommodation Preference</label>
+        <select class="form-select" id="accommodation" name="accommodation" required>
+            <option value="Space Hotel" <%= travelPreferences.accommodation === 'Space Hotel' ? 'selected' : '' %>>Space Hotel</option>
+            <option value="Martian Base" <%= travelPreferences.accommodation === 'Martian Base' ? 'selected' : '' %>>Martian Base</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="specialRequests" class="form-label">Special Requests or Preferences</label>
+        <textarea class="form-control" id="specialRequests" name="specialRequests"><%= travelPreferences.specialRequests || '' %></textarea>
+    </div>
+    <button type="button" onclick="window.location.href='/'" class="btn btn-secondary">Back</button>
+    <button type="submit" class="btn btn-primary">Next</button>
+</form>
+<%- include('partials/footer') %>

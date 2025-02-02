@@ -1,0 +1,22 @@
+<%- include('partials/header') %>
+<h1>Stage 3: Health and Safety</h1>
+<form action="/submit" method="POST">
+    <div class="mb-3">
+        <label for="healthDeclaration" class="form-label">Health Declaration</label>
+        <select class="form-select" id="healthDeclaration" name="healthDeclaration" required>
+            <option value="Yes" <%= healthInfo.healthDeclaration === 'Yes' ? 'selected' : '' %>>Yes</option>
+            <option value="No" <%= healthInfo.healthDeclaration === 'No' ? 'selected' : '' %>>No</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="emergencyContact" class="form-label">Emergency Contact Information</label>
+        <input type="text" class="form-control" id="emergencyContact" name="emergencyContact" value="<%= healthInfo.emergencyContact || '' %>" required>
+    </div>
+    <div class="mb-3">
+        <label for="medicalConditions" class="form-label">Any Medical Conditions (if applicable)</label>
+        <textarea class="form-control" id="medicalConditions" name="medicalConditions"><%= healthInfo.medicalConditions || '' %></textarea>
+    </div>
+    <button type="button" onclick="window.location.href='/stage2'" class="btn btn-secondary">Back</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<%- include('partials/footer') %>
